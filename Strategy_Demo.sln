@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{505AB63B-D2BD-48DF-B735-4FA4BEC07D05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting", "src\CrossCutting\CrossCutting.csproj", "{E3574786-313C-428A-9435-C8331AB55994}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,7 @@ Global
 		{A3210EB5-997C-4957-94A5-3B3717AFDBCC} = {8E5FDE75-5920-439A-894D-BF9B19CA088E}
 		{AA2AF411-65D6-4B22-AC8D-9A3E670D9D67} = {8E5FDE75-5920-439A-894D-BF9B19CA088E}
 		{505AB63B-D2BD-48DF-B735-4FA4BEC07D05} = {8E5FDE75-5920-439A-894D-BF9B19CA088E}
+		{E3574786-313C-428A-9435-C8331AB55994} = {8E5FDE75-5920-439A-894D-BF9B19CA088E}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A3210EB5-997C-4957-94A5-3B3717AFDBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -31,5 +34,9 @@ Global
 		{505AB63B-D2BD-48DF-B735-4FA4BEC07D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{505AB63B-D2BD-48DF-B735-4FA4BEC07D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{505AB63B-D2BD-48DF-B735-4FA4BEC07D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3574786-313C-428A-9435-C8331AB55994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3574786-313C-428A-9435-C8331AB55994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3574786-313C-428A-9435-C8331AB55994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3574786-313C-428A-9435-C8331AB55994}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
