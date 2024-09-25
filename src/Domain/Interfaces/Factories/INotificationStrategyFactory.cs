@@ -5,5 +5,5 @@ namespace Domain.Interfaces.Factories;
 
 public interface INotificationStrategyFactory
 {
-    INotificationStrategy GetNotificationStrategy(NotificationChannel channel);
+    INotificationStrategy GetStrategy(NotificationChannel channel);
 }
