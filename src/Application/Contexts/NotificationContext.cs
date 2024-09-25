@@ -11,7 +11,7 @@ public class NotificationContext(INotificationStrategy strategy, INotificationSt
 
     public void SetStrategy(NotificationChannel channel)
     {
-        Strategy = StrategyFactory.GetNotificationStrategy(channel);
+        Strategy = StrategyFactory.GetStrategy(channel);
     }
 
     public string Send(string sender, string recipient, string content)
